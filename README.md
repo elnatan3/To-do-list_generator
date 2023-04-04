@@ -24,3 +24,7 @@ b. Create a new branch (git checkout -b new-feature)
 c. Make your changes and commit them (git commit -am "Add new feature")
 d .Push your changes to your branch (git push origin new-feature)
 e. Create a Pull Request
+
+# Contact Information
+For any inquiries contact me at
+Email: elnatantesfa21@gmail.com
