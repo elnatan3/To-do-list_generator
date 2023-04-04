@@ -1,5 +1,5 @@
 # To-do-list_generator
-I created a simple To-Do List application written in Python that allows users to add, delete and manage tasks.
+I created a simple To-Do List application written in HTML and CSS that allows users to add, delete and manage tasks.
 
 # Installation
 Clone this repository to your local machine using git clone https://github.com/elnatan3/To-do-list-generator.git
