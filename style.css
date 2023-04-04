@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #f2f2f2;
+  box-sizing: border-box;
+}
+
+.center{
+  position: absolute;
+  width: 100%;
+}
+.center .button{
+  width: 100%;
+  background: cadetblue;
+  height: 100px;
+  text-align: center;
+  padding-top: 15px;
+}
+.button .text{
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 50px;
+  letter-spacing: 3px;
+  font-family: 'Open Sans',sans-serif;
+}
+
+.button .icon{
+  font-size: 30px;
+  float: right;
+  line-height: 40px;
+  cursor: pointer;
+}
+.center .field{
+  height: 45px;
+  width: 100%;
+  background: #f2f2f2;
+  position: relative;
+  display: block;
+}
+
+.field.hide{
+  display: none;
+}
+
+.field input{
+  height: 100%;
+  width: 100%;
+  padding-left: 15px;
+  font-size: 18px;
+  outline: none;
+  background: none;
+  color: #202020;
+  border: 2px solid #1b1b1b;
+}
+
+.field .add-btn{
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: #1b1b1b;
+  font-size: 17px;
+  padding: 4px 8px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: 'Roboto Slab', serif;
+  display: block;
+}
+
+input:valid ~ .add-btn{
+  display: block;
+}
+.center ul{
+  list-style: none;
+  overflow: hidden;
+}
+ul li{
+  height: 45px;
+  width: 100%;
+  line-height: 45px;
+  color: black;
+  background: green;
+  font-family: 'Noto Sans',sans-serif;
+}
+ul li:nth-child(2n){
+  background: lightgreen;
+}
+ul li:last-child{
+  border-radius: 0 0 5px 5px;
+}
+ul li:last-child span{
+  border-radius: 0 5px 5px 5px;
+}
+ul li span{
+  margin-right: 20px;
+  height: 45px;
+  width: 45px;
+  margin-left: -45px;
+  background: darkblue;
+  display: inline-block;
+  line-height: 45px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  transition: 0.3s ease;
+}
+ul li:hover span{
+  margin-left: 0px;
+}
